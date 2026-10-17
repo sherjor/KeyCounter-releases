@@ -1,0 +1,12 @@
+{
+  "version": "1.1.0",
+  "tag": "v1.1.0",
+  "name": "KeyCounter v1.1.0",
+  "asset": "KeyCounter-1.1.0-win64.zip",
+  "url": "https://github.com/sherjor/KeyCounter-releases/releases/download/v1.1.0/KeyCounter-1.1.0-win64.zip",
+  "size": 24297165,
+  "sha256": "a7efb90ea502e88e32824aca987b2897bd87600a0f8fc0d9c1740206d78d1178",
+  "notes": "# KeyCounter v1.1.0\n\n本次更新加入「检查更新」：程序可以直接从公开发布仓库获取新版本，不需要\nGitHub 账号，也不需要手动关注发布页。\n\n## 新增\n\n- 主窗口左下角、悬浮窗右键菜单加入「检查更新」；\n- 发现新版本后显示版本号与更新摘要，确认后下载；\n- 下载完成校验 SHA-256，再替换程序文件并自动重启；\n- 统计数据保存在 `data\\` 目录，更新不会覆盖；\n- 更新源为公开的 [`KeyCounter-releases`](https://github.com/sherjor/KeyCounter-releases)，\n  源码仓库保持私有；\n- 更新器优先读取发布仓库的 `latest.json`，不消耗 GitHub API 配额；\n  显式支持 Windows 系统代理。\n\n## 下载\n\n`KeyCounter-1.1.0-win64.zip`（约 23 MB，解压后约 48 MB）\n\n解压到任意目录，双击 `KeyCounter.exe`，无需安装 Python。\n\n## 系统要求\n\nWindows 10 / 11（64 位）。",
+  "html_url": "https://github.com/sherjor/KeyCounter-releases/releases/tag/v1.1.0",
+  "published_at": "2026-10-17T13:02:05Z"
+}
