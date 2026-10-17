@@ -15,8 +15,7 @@
 **只统计程序运行期间的按键；只累加每个键被按了多少次，不记录任何输入内容。**
 
 <p align="center">
-  <img src="docs/screenshots/floating.png" width="170" alt="悬浮窗">
-  <img src="docs/screenshots/overview.png" width="470" alt="概览">
+  <img src="docs/screenshots/preview.png" width="1080" alt="预览">
 </p>
 
 # KeyCounter 发布仓库
