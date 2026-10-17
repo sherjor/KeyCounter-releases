@@ -15,7 +15,8 @@
 **只统计程序运行期间的按键；只累加每个键被按了多少次，不记录任何输入内容。**
 
 <p align="center">
-  <img src="docs/screenshots/preview.png" width="1080" alt="预览">
+  <img src="docs/screenshots/preview.png" width="1080" alt="日间模式预览">
+  <img src="docs/screenshots/preview-black.png" width="1080" alt="夜间模式预览">
 </p>
 
 # KeyCounter 发布仓库
