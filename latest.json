@@ -1,12 +1,12 @@
 {
-  "version": "1.2.0",
-  "tag": "v1.2.0",
-  "name": "KeyCounter v1.2.0",
-  "asset": "KeyCounter-1.2.0-win64.zip",
-  "url": "https://github.com/sherjor/KeyCounter-releases/releases/download/v1.2.0/KeyCounter-1.2.0-win64.zip",
-  "size": 24317526,
-  "sha256": "d81aba56e0b30e8c2f74a3d36cc6e47b4ae163976c2d405f61b0beb234cbdb40",
-  "notes": "# KeyCounter v1.2.0\n\n本次更新加入悬浮窗**番茄钟**，并做了一轮界面与性能优化。\n\n## 新增\n\n- 悬浮窗番茄钟：专注 25:00 / 短休息 5:00 / 长休息 15:00，三个阶段时长\n  可拖动调整并记住；\n- 专注期间统计本次输入，暂停不计数，倒计时结束或主动停止后显示数量；\n- 收起后计时继续运行，入口右侧小绿点表示专注中（灰点表示暂停）；\n- 缩放手柄常态隐藏，鼠标移入才显示；展开番茄钟时跟随到卡片右下角；\n- 顶部标题点击限定在标题药丸内，标题以外的顶部区域也能拖动窗口。\n\n## 优化\n\n- 主窗口按需构建视图，换主题只重建当前页；\n- 趋势图与柱状图按数据、尺寸、主题缓存位图，减少重复渲染；\n- 写盘移出 UI 线程，长时间使用更顺滑；\n- 右键菜单开关改为 4× 绘制缩小，消除边缘重影。\n\n## 下载\n\n`KeyCounter-1.2.0-win64.zip`（约 23 MB，解压后约 48 MB）\n\n解压到任意目录，双击 `KeyCounter.exe`，无需安装 Python。\n\n## 系统要求\n\nWindows 10 / 11（64 位）。\n\nSHA-256：`d81aba56e0b30e8c2f74a3d36cc6e47b4ae163976c2d405f61b0beb234cbdb40`\n",
-  "html_url": "https://github.com/sherjor/KeyCounter-releases/releases/tag/v1.2.0",
-  "published_at": "2026-10-18T06:32:45Z"
+  "version": "1.2.1",
+  "tag": "v1.2.1",
+  "name": "KeyCounter v1.2.1",
+  "asset": "KeyCounter-1.2.1-win64.zip",
+  "url": "https://github.com/sherjor/KeyCounter-releases/releases/download/v1.2.1/KeyCounter-1.2.1-win64.zip",
+  "size": 24334041,
+  "sha256": "d503261bd22254e85475f75b0f0115ee1a6eea10cef664012f6bfdc5c4e09a82",
+  "notes": "# KeyCounter v1.2.1\n\n本次更新是一轮界面渲染优化，不改变现有数据与操作方式。\n\n## 优化\n\n- 主窗口卡片、药丸按钮与导航选中态改用 Pillow 超采样位图，夜间模式的\n  卡片边缘不再出现灰色阴影圈；\n- 右键菜单改为 Pillow 4× + `UpdateLayeredWindow` 渲染，圆角、图标、文字与\n  开关边缘都是真正的抗锯齿半透明像素；\n- 热力图整张键盘改为 Pillow 3×/2× 绘制后贴图，并按宽度、配列、色阶缓存，\n  数据刷新时色阶不变就直接复用；\n- 更新进度条改为 4× 绘制，低百分比时圆角完整；\n- 主窗口缩放时用静止截图占位，停止拖动后再恢复内容并重排，拖动更跟手。\n\n## 下载\n\n`KeyCounter-1.2.1-win64.zip`（约 23 MB，解压后约 48 MB）\n\n解压到任意目录，双击 `KeyCounter.exe`，无需安装 Python。\n\n## 系统要求\n\nWindows 10 / 11（64 位）。\n\nSHA-256：`d503261bd22254e85475f75b0f0115ee1a6eea10cef664012f6bfdc5c4e09a82`\n",
+  "html_url": "https://github.com/sherjor/KeyCounter-releases/releases/tag/v1.2.1",
+  "published_at": "2026-10-18T08:49:36Z"
 }
