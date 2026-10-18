@@ -1,12 +1,12 @@
 {
-  "version": "1.2.2",
-  "tag": "v1.2.2",
-  "name": "KeyCounter v1.2.2",
-  "asset": "KeyCounter-1.2.2-win64.zip",
-  "url": "https://github.com/sherjor/KeyCounter-releases/releases/download/v1.2.2/KeyCounter-1.2.2-win64.zip",
-  "size": 24336994,
-  "sha256": "c50f6ed4656f0ba879246e6b1a33443f67cf216d4f53ce5a8021fbc1c8f402c6",
-  "notes": "# KeyCounter v1.2.2\n\n本次更新调整了悬浮窗底部的入口布局，并修复了快速点击丢失的问题。\n\n## 新增\n\n- 悬浮窗底部改为「不透明度」「番茄钟」两个并排入口标签，各自独立展开 / 收起；\n- 两个面板可以同时展开，也可以只开一个或全部收起；\n- 全部收起时右侧出现与入口同高的第三个圆角矩形，承载缩放手柄，\n  三个矩形等宽铺满整行；\n- 100% 缩放尺寸：仅不透明度 264×378、仅番茄钟 264×480、双开 264×544、\n  全收起 264×314。\n\n## 修复\n\n- 快速连点同一选项卡时 Tk 只派发 `Double` 事件，导致点击丢失；\n- 展开 / 收起动画尚未结束时再次点击会被动画守卫吞掉。\n\n## 下载\n\n`KeyCounter-1.2.2-win64.zip`（约 23 MB，解压后约 48 MB）\n\n解压到任意目录，双击 `KeyCounter.exe`，无需安装 Python。\n\n## 系统要求\n\nWindows 10 / 11（64 位）。\n\nSHA-256：`c50f6ed4656f0ba879246e6b1a33443f67cf216d4f53ce5a8021fbc1c8f402c6`\n",
-  "html_url": "https://github.com/sherjor/KeyCounter-releases/releases/tag/v1.2.2",
-  "published_at": "2026-10-18T09:34:13Z"
+  "version": "1.2.3",
+  "tag": "v1.2.3",
+  "name": "KeyCounter v1.2.3",
+  "asset": "KeyCounter-1.2.3-win64.zip",
+  "url": "https://github.com/sherjor/KeyCounter-releases/releases/download/v1.2.3/KeyCounter-1.2.3-win64.zip",
+  "size": 24338208,
+  "sha256": "e0eb0c5c1693968806994a047e243fb96f2341f8cb91c540f975920b204bf639",
+  "notes": "# KeyCounter v1.2.3\n\n本次是一个小的界面修正版本。\n\n## 调整\n\n- 悬浮窗底部三个入口矩形左右各内缩 8px（随缩放比例），不再顶到悬浮窗边缘；\n- 右侧摇杆矩形自动吃掉剩余宽度，三个矩形保持等间距。\n\n## 下载\n\n`KeyCounter-1.2.3-win64.zip`（约 23 MB，解压后约 48 MB）\n\n解压到任意目录，双击 `KeyCounter.exe`，无需安装 Python。\n\n## 系统要求\n\nWindows 10 / 11（64 位）。\n\nSHA-256：`e0eb0c5c1693968806994a047e243fb96f2341f8cb91c540f975920b204bf639`\n",
+  "html_url": "https://github.com/sherjor/KeyCounter-releases/releases/tag/v1.2.3",
+  "published_at": "2026-10-18T14:06:49Z"
 }
